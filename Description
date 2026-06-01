@@ -1,0 +1,8 @@
+The purpose of this script is to use Mistral AI models to support operational debriefing and especially the post-incident form. the witness starts by giving facts about the event, then the system will generate pesonalised questions to clarify the situation and analyse the key Human Factors involved in the situation.
+
+This script include two different ways to live the interview.
+
+    The Collaborative model
+    The Non-Collaborative model
+
+To make it work, an access to neo4j graphdatabase is needed with the database ready to go. It is free and you will need to use the CSV file given to import the graph.
